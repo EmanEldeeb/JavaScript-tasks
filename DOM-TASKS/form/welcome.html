@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(137, 43, 226, 0.263);
+        }
+        .welcome{
+            width: 50%;
+            border-radius: 10px;
+            border: 2px solid purple;
+            color: rgb(242, 233, 233);
+            background-color: rgba(128, 0, 128, 0.763);
+            text-align: center;
+        }
+        .welcome div{
+            padding: 20px;
+            margin: 10px;
+            font-size: 25px;
+        }
+       
+    </style>
+</head>
+<body> 
+    <section class="welcome">
+    <div id="messageWel"></div>
+    <div id="info"></div>
+    </section>
+    <script >
+        
+        var message=document?.getElementById("messageWel");
+        var info=document?.getElementById("info")
+        var str=location.search.split("&");
+        var userName=(str[0]?.split("="))[1]
+        var email=(str[1]?.split("="))[1]
+        var title=(str[3]?.split("="))[1]
+        var mobile=(str[4]?.split("="))[1]
+        var gender=(str[5]?.split("="))[1]
+        
+        console.log(userName," ",email," ",mobile," ",gender)
+        
+        message.innerHTML=`Hello:${userName} Title:${title} `
+        info.innerHTML=`Email:${email} Mobile:${mobile}  Gender=${gender} `
+            </script>
+</body>
+</html>

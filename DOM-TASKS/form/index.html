@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <script src="app.js" defer></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            border: 2px solid purple;
+            width: 40%;
+            padding: 20px;
+            
+
+        }
+        label{
+            display: inline-block;
+            width: 100px;
+            margin: 10px;
+        }
+        input{
+            margin: 10px 5px;
+            border: 2px solid purple;
+        }
+        div{
+            text-align: center;
+            
+           
+        }
+        button{
+            border: none;
+            background-color: purple;
+            color: white;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .error{
+            border:2px solid red;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="welcome.html">
+        <label for="userName">UserName</label>
+        <input type="text" name="userName" id="userName">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br>
+
+        <label for="jobtitle">Job Title</label>
+        <input type="text" name="jobtitle" id="jobtitle">
+        <br>
+
+        <label for="mobile">Mobile</label>
+        <input type="number" name="mobile" id="mobile">
+        <br>
+        <input type="radio" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">female</label>
+        <br>
+        <div>
+            <button type="submit" id="register">Register</button>
+            <button type="reset" id="reset">reset</button>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <title>slider</title>
+    <style>
+        .btns,.gallary{
+
+            display: flex;
+            justify-content: center;
+        }
+        .btns div{
+            background-color: gray;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            padding: 10px;
+            margin-inline: 20px;
+            cursor: pointer;
+        }
+        .gallary{
+            position: relative;
+            margin-top: 30px;
+        }
+        .gallary img{
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            opacity: 0;
+        }
+        .view{
+            opacity: 1 !important;
+            transition: .4s;
+        }
+        .dis{
+            pointer-events: none !important;
+            background-color: gainsboro !important;
+            color: gray !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="btns">
+        <div id="next" >Next</div>
+        <div id="show">slide show</div>
+        <div id="stop">stop</div>
+        <div id="Pre">Pre</div>
+    </div>
+   
+        <div class="gallary">
+            <img src="images/1.jpg" class="view" alt="first">
+            <img src="images/2.jpg"  alt="second">
+            <img src="images/3.jpg" alt="third">
+            <img src="images/4.jpg" alt="fourth">
+            <img src="images/5.jpg" alt="five">
+            <img src="images/6.jpg" alt="sixth">
+        </div>
+ 
+</body>
+</html>
