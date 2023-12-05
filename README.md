@@ -7,6 +7,6 @@ simple-mid js projects
 4-Image slider  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/slider/index.html) 
 
 # Day5 (Events)
-1-stop context menu    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/stop-context-menu/index.html)
-2-confirm submition   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/confirm-submition/index.html)
-3-custom event   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/custom-event/index.html)
+1-stop context menu    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/stop-context-menu/index.html)   
+2-confirm submition   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/confirm-submition/index.html)    
+3-custom event   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/custom-event/index.html)    
