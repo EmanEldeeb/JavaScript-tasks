@@ -12,6 +12,6 @@ simple-mid js projects
 3-custom event   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/custom-event/index.html)    
 
 # Day6 (cookie && Dom)
-1-Show user data with cookie library  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/cookie/index.html)   
-2-Text editor   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/text-editor/index.html)    
-3-Card generator   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/Card-Generator/index.html)     
+1-Show user data with cookie library  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/cookie/index.html)   
+2-Text editor   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/text-editor/index.html)    
+3-Card generator   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/Card-Generator/index.html)     
