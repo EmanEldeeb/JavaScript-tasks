@@ -10,3 +10,8 @@ simple-mid js projects
 1-stop context menu    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/stop-context-menu/index.html)   
 2-confirm submition   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/confirm-submition/index.html)    
 3-custom event   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/custom-event/index.html)    
+
+# Day6 (cookie && Dom)
+1-Show user data with cookie library  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/cookie/index.html)   
+2-Text editor   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/text-editor/index.html)    
+3-Card generator   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/Card-Generator/index.html)     
