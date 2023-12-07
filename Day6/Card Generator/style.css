@@ -1,0 +1,51 @@
+body{
+    background-color: cornsilk;
+    margin: 0;
+    padding:  0 0 20px;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1,h2{
+    text-transform: capitalize;
+    color: green;
+    text-align: center;
+}
+h1{
+    background-color: white;
+    padding: 15px;
+    box-shadow: inset -10px 1px 18px 7px rgb(232, 218, 162);
+}
+.container{
+    flex-direction: column;
+    gap: 10px;
+}
+.pics{
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.box{
+    width: calc(95%/3);   
+    flex-direction: column;
+}
+
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid transparent;
+}
+
+textarea{
+    width: 60%;
+    height: 100px;
+}
+
+.clicked{
+    border: solid 2px red;
+}

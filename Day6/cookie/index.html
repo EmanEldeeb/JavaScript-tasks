@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookie</title>
+    <script src="cookie.js" defer></script>
+    <script src="app.js" defer></script>
+    <style>
+        label{
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+        }
+        input{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            width: 200px;
+            display: block;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <label for="userName">Name</label>
+    <input type="text" name="userName" id="userName">
+    <br>
+    <label for="userage">age</label>
+    <input type="number" name="userage" id="userage">
+    <br>
+    <input type="radio" name="gender" value="male" checked>
+    <img src="images/1.jpg" alt="male">
+    <input type="radio" name="gender" value="female">
+    <img src="images/2.jpg" alt="female">
+    <br>
+    <label for="color">get color</label>
+    <select name="color" id="color">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="black">black</option>
+    </select>
+    <br>
+    <button type="submit" id="submit">register</button>
+</body>
+</html>
