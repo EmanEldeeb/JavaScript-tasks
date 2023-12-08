@@ -14,4 +14,5 @@ simple-mid js projects
 # Day6 (cookie && Dom)
 1-Show user data with cookie library  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/cookie/index.html)   
 2-Text editor   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/text-editor/TextStyle.html)    
-3-Card generator   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/Card-Generator/index.html)     
+3-Card generator   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/Card-Generator/index.html)   
+4-moving images  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/moving-images/index.html)      
