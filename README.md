@@ -24,8 +24,12 @@ simple-mid js projects
   4-exact number of paramters         [live demo](https://emaneldeeb.github.io/JavaScript-ta7ks/Day7/exact-num-arguments/index.html)        
   6-cookie with check for proper use  [live demo](https://emaneldeeb.github.io/JavaScript-task7/Day7/cookie/index.html)         
 
+# Day8 (closure)
+  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day8/index.html)    
 
 
+# Day9 (constructor function)
+    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)    
 
 #  Guess my number game
       -- guess a random number to win with indicators to tell you if your guess too low or too high and with ability to play again and keep the highest score you got saved   
