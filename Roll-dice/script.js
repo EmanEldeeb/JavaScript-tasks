@@ -12,6 +12,34 @@ playerZeroScore.textContent=0
 let currentScore=0
 let player=0
 const finalScores=[0,0]
+const winningScore=100;
+
+function switchPlayer(){
+    //end game and get the winner
+    win();
+   
+    console.log("switch")
+    document.querySelector(`.player--${player}`).classList.toggle("player--active")
+    currentScore=0;
+    document.getElementById(`current--${player}`).textContent=0;
+    player=player==0?1:0;
+    document.querySelector(`.player--${player}`).classList.toggle("player--active")
+
+}
+
+function win(){
+    if(finalScores[player]>=winningScore){
+        console.log("win")
+        holdBtn.classList.add("disable-btn")
+        rollBtn.classList.add("disable-btn")
+        document.querySelector(`.player--${player}`).classList.remove("player--active")
+        document.querySelector(`.player--${player}`).classList.add("player--winner")
+
+
+    }
+   
+}
+
 
 // rolling the dice
 rollBtn.addEventListener("click",function(){
@@ -33,31 +61,7 @@ rollBtn.addEventListener("click",function(){
 }})
 
 
-function switchPlayer(){
-    //end game and get the winner
-    win();
-   
-    console.log("switch")
-    document.querySelector(`.player--${player}`).classList.toggle("player--active")
-    currentScore=0;
-    document.getElementById(`current--${player}`).textContent=0;
-    player=player==0?1:0;
-    document.querySelector(`.player--${player}`).classList.toggle("player--active")
 
-}
-
-function win(){
-    if(finalScores[player]>=20){
-        console.log("win")
-        holdBtn.classList.add("disable-btn")
-        rollBtn.classList.add("disable-btn")
-        document.querySelector(`.player--${player}`).classList.remove("player--active")
-        document.querySelector(`.player--${player}`).classList.add("player--winner")
-
-
-    }
-   
-}
 
 
 holdBtn.addEventListener("click",function(){
@@ -68,9 +72,11 @@ holdBtn.addEventListener("click",function(){
     document.getElementById(`current--${player}`).textContent=0
     document.getElementById(`score--${player}`).textContent=finalScores[player]
     switchPlayer()  
-
-
-
 })
 
+
+
+newGameBtn.addEventListener("click",function(){
+    location.reload()
+})
 
