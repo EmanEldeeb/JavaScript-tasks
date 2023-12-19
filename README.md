@@ -29,7 +29,6 @@ simple-mid js projects
 
 #  Guess my number game
       -- guess a random number to win with indicators to tell you if your guess too low or too high and with ability to play again and keep the highest score you got saved
-      
       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Guess-My-Number/index.html)
 
 
@@ -40,5 +39,4 @@ simple-mid js projects
        3- Or, hold the current score to save it to the final score.
        4- If you press "hold" or roll a one on the dice, the turn goes to the other player.
        5- To win, you need to reach the winning score, which is 100, before the other player.
-       
        [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Roll-dice/index.html)
