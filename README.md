@@ -17,7 +17,7 @@ simple-mid js projects
   3-Card generator                      [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/Card-Generator/index.html)   
   4-moving images                       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/moving-images/index.html)   
 
-# Day7
+# Day7 (functions and Errors)
   1-array functionality               [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/linked-list/index.html)      
   2-pass-numbers-only                 [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/pass-numbers-only/index.html)        
   3-reverse arguments                 [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/reverse-params/index.html)       
