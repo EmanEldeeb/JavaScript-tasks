@@ -29,7 +29,8 @@ simple-mid js projects
 
 
 # Day9 (constructor function)
-    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)    
+  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)
+    
 
 #  Guess my number game
       -- guess a random number to win with indicators to tell you if your guess too low or too high and with ability to play again and keep the highest score you got saved   
