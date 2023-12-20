@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link
+      rel="shortcut icon"
+      href="image/icon-wind@2x.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800;900&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:wght@100;300;400;500;700&family=Titillium+Web:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/347beaf4f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container text-center d-flex flex-column justify-content-center align-items-center rounded shadow my-5 py-5">
+  
+      <h1 class="my-4  text-white">ToDO List</h1>
+      <div class="input-container w-75 shadow px-5 py-3  mb-5 rounded bg-white">
+        <input class="form-control mb-4 p-3" type="text" name="task" id="task" placeholder="What would you like to do?">
+        <button class="btn btn-danger px-5 py-2 mx-auto d-block">Add</button>
+      
+     </div>
+<div class="tasks-container w-75 shadow px-5 py-3 rounded bg-white">
+  <h2 class="tasks-title text-start mb-3">Todo List</h2>
+  <table class="table">
+    <thead>
+      <th>list</th>
+      <th>status</th>
+      <th>close</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>go to gym</td>
+        <td> <button class="status-btn btn btn-info">pendding</button> </td>
+        <td> <span class="delete"><i class="fa-regular fa-trash-can"></i></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+  </body>
+</html>
