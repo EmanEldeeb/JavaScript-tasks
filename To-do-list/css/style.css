@@ -1,26 +1,33 @@
 :root {
   --main-writing:#090979;
 }
-body{
-  background-color: rgb(128 128 128 / 7%);;
-}
 * {
   font-family: "Roboto", sans-serif;
-  
 }
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+body{
+  background-color: rgb(128 128 128 / 7%);
 }
-
 .container{
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 11%, rgba(9,9,121,1) 37%, rgba(0,212,255,1) 43%);
-  
+  min-height: calc(100vh - 6rem);
 }
-
+.tasks-container,.input-container{
+  background-color:  #ebebeb;
+}
+h1{
+  color: #ebebeb;;
+}
+input::placeholder{
+  color:#090979ba !important;
+}
+input,.table>:not(caption)>*>*,table{
+  background-color: #e1e1e1 !important;
+  border-radius: 10px;
+}
+.status-btn{
+  width: 150px;
+}
 h2,th,td,td,input{
   color: var(--main-writing) !important;
 }
