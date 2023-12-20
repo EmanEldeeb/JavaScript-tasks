@@ -46,4 +46,11 @@ simple-mid js projects
        4- If you press "hold" or roll a one on the dice, the turn goes to the other player.
        5- To win, you need to reach the winning score, which is 100, before the other player. 
   ###          [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Roll-dice/index.html)
-  
+
+
+# To Do List
+  1-add tasks   
+  2-show status of the task    
+  3-delete task    
+  ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/To-do-list/index.html)
+
