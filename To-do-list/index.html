@@ -30,6 +30,8 @@
       <h1 class="my-4 ">ToDO List</h1>
       <div class="input-container w-75 shadow px-5 py-3  mb-5 rounded ">
         <input class="form-control mb-4 p-3 mt-3" type="text" name="task" id="task" placeholder="What would you like to do?">
+       
+        <input class="form-control mb-4 p-3 mt-3" type="date" name="task-date" id="task-date">
         <button id="add-btn" class="btn btn-danger px-5 py-2 mx-auto d-block">Add</button>
       
      </div>
@@ -37,9 +39,10 @@
   <h2 class="tasks-title text-start mb-3">Todo List</h2>
   <table class="table ">
     <thead>
-      <th>list</th>
-      <th>status</th>
-      <th>close</th>
+      <th>List</th>
+      <th>Status</th>
+      <th>Deadline</th>
+      <th>Close</th>
     </thead>
     <tbody id="task-area">
     </tbody>
