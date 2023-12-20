@@ -50,7 +50,7 @@ simple-mid js projects
 
 # To Do List
   1-add tasks   
-  2-show status of the task    
+  2-update status of the task    
   3-delete task    
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/To-do-list/index.html)
 
