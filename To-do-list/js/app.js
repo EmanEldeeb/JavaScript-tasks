@@ -19,7 +19,7 @@ addBtn.addEventListener("click",()=>{
     <td class="dead-line">${taskDeadline.value}</td>
     <td> <span class="delete"><i class="fa-regular fa-trash-can"></i></span></td>`
     newRow.innerHTML=element
-    if(userInput.value){
+    if(userInput.value &&taskDeadline.value){
         taskArea.append(newRow)
     }
     clearInput()
@@ -46,7 +46,7 @@ setInterval(()=>{
         if(new Date(date.textContent) <today && statusBtn.textContent != "completed"){
             statusBtn.textContent="missed"
             statusBtn.classList.remove("btn-info")
-            statusBtn.classList.add("btn-danger")
+            statusBtn.classList.add("btn-danger","disabled-status")
 
         }
     })

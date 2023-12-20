@@ -28,6 +28,9 @@ input,.table>:not(caption)>*>*,table{
 .status-btn{
   width: 150px;
 }
+.disabled-status{
+  pointer-events: none;
+}
 h2,th,td,td,input{
   color: var(--main-writing) !important;
 }
