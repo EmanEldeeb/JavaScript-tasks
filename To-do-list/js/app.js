@@ -42,8 +42,8 @@ taskArea.addEventListener("click",(event)=>{
 })
 setInterval(()=>{
     document.querySelectorAll(".dead-line").forEach(date=>{
-        if(new Date(date.textContent) <today){
-            const statusBtn=  date.closest("tr").querySelector("button")
+        const statusBtn=  date.closest("tr").querySelector("button")
+        if(new Date(date.textContent) <today && statusBtn.textContent != "completed"){
             statusBtn.textContent="missed"
             statusBtn.classList.remove("btn-info")
             statusBtn.classList.add("btn-danger")
