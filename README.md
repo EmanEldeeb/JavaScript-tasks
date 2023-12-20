@@ -51,8 +51,8 @@ simple-mid js projects
 # To Do List
   1-add tasks   
   2-update status of the task (completed or missed) 
-  3-press pedding button to mark task completed
-  4-if the deadline pass the status automatically will be missed
-  5-delete task    
+  3-press pedding button to mark task completed   
+  4-if the deadline pass the status automatically will be missed    
+  5-delete task        
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/To-do-list/index.html)
 
