@@ -57,8 +57,8 @@ small-mid js projects
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/To-do-list/index.html)
 
 # Hangman game
-1-guess the word letters
-2-if it is right will be added to the bottom container to form the word
-3-on each wrong choose part of the gallows will appear
-4-we have 8 tries = to gallows parts to lose
+1-guess the word letters    
+2-if it is right will be added to the bottom container to form the word         
+3-on each wrong choose part of the gallows will appear        
+4-we have 8 tries = to gallows parts to lose        
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Hangman-game/index.html)
