@@ -56,5 +56,5 @@ small-mid js projects
   5-delete task              
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/To-do-list/index.html)
 
-#Hangman game
+# Hangman game
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Hangman-game/index.html)
