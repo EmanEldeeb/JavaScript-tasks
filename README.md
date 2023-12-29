@@ -32,10 +32,10 @@ small-mid js projects
   [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)
 
 # closure
- 1-Why do we use the self variable to capture the this value in the IIFE function? When executed, it refers to the window object.  
+ 1-Why do we use the self variable? to capture the this value in the IIFE function When executed, it refers to the window object.  
     If I use this inside it, the setter and getter will be defined inside the window, not within my object.     
 
-2-So, why do we use an IIFE function to narrow the scope? If we don't use it, the key that appears in the getter and setter functions      
+2-So, why do we use an IIFE function to narrow the scope If we don't use it, the key that appears in the getter and setter functions      
     will always be the last key that was read in the object. In this case, it's the function itself. Consequently, we can't create setters and getters for other properties 
 
 #  Guess my number game
