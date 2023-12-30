@@ -68,3 +68,14 @@ small-mid js projects
 3-on each wrong choose part of the gallows will appear        
 4-we have 8 tries = to gallows parts to lose        
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Hangman-game/index.html)
+# Bankist 
+test array functionalty    
+1-login use userName and password     
+2-display movments-blance-and summaray about transaction    
+3-transfer money to other accounts      
+4-request loan        
+5-delete account        
+6-sort movements        
+7-show current date        
+8-timer logout       
+  ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Bankist/index.html)
