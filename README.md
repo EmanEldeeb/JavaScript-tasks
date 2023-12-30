@@ -77,5 +77,6 @@ test array functionalty
 5-delete account        
 6-sort movements        
 7-show current date        
-8-timer logout       
+8-timer logout  
+hint-->you can test the app by these accounts (user,pin)-->(ee,1111),(aa,2222),(ae,3333)or(sa,4444)
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Bankist/index.html)
