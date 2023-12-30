@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color range</title>
+    <script src="app.js" defer></script>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div class="controls">
+        <div> 
+            <label for="red">Red</label>
+            <input type="range" name="red" id="red" min="0" max="255" step="1">
+        </div>
+        <div>
+            <label for="green">green</label>
+            <input type="range" name="green" id="green" min="0" max="255" step="1">
+        </div>
+        <div>
+            <label for="blue">blue</label>
+            <input type="range" name="blue" id="blue" min="0" max="255" step="1">
+        </div>
+   </div>
+   <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda culpa suscipit saepe beatae voluptatibus, ipsum molestiae 
+    quidem debitis eveniet, corrupti sed eos nostrum, voluptatem nobis alias magnam quas mollitia.</p>
+</body>
+</html>

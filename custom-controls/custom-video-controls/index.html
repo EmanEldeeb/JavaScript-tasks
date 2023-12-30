@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video control functionalty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+   <div class="videocontainer">
+    <video src="video/1.mp4"></video>
+    <input type="range" min="0" max="" step="1" name="timeFrame">
+    <div class="full-screen">
+        <span>[</span>
+        <span>]</span>
+    </div>
+   </div>
+    <div class="controls">
+        <input type="button" value="play" name="play">
+        <input type="button" value="stop" name="stop">
+        <input type="button" value="<<" name="prev">
+        <input type="button" value="<" name="moveback">
+        <input type="button" value=">" name="moveforward">
+        <input type="button" value=">>" name="next">
+        <input type="range" min="0" max="1" step=".1" name="volume">
+        <input type="button" value="mute" name="mute">
+        <br>
+        <label for="speed">speed</label>
+        <input type="range" min="1" max="10" id="speed" step="1" name="speed">
+    </div>
+</body>
+</html>
