@@ -83,6 +83,6 @@ hint-->you can test the app by these accounts (user,pin)-->(ee,1111),(aa,2222),(
 2-So, why do we use an IIFE function to narrow the scope If we don't use it, the key that appears in the getter and setter functions      
     will always be the last key that was read in the object. In this case, it's the function itself. Consequently, we can't create setters and getters for other properties 
 # custom controls
-1-custom video controls [live demo](https://emaneldeeb.github.io/JavaScript-tasks/custom-video-controls/index.html)
+1-custom video controls [live demo](https://emaneldeeb.github.io/JavaScript-tasks/custom-video-controls/index.html)     
 2-custom color ranges [live demo](https://emaneldeeb.github.io/JavaScript-tasks/color-range/index.html)
-[live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)
+
