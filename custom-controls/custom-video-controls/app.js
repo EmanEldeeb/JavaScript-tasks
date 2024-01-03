@@ -10,13 +10,15 @@ const moveforwardBtn=document.querySelector("input[name=moveforward]");
 const volume=document.querySelector("input[name=volume]");
 const muteBtn=document.querySelector("input[name=mute]");
 const speed=document.querySelector("input[name=speed]");
-const fullScreenBtn=document.querySelector(".full-screen")
+const fullScreenBtn=document.querySelector(".full-screen");
+const currentTiming=document.querySelector(".timeelip");
+const totalDurationholder=document.querySelector(".duration");
 const seconds=10;
 let  currentVolum=.5;
 let currentVideo=1;
 
 playBtn.addEventListener("click",()=>{
-    video.setAttribute("max",video.duration)
+    timeFrame.setAttribute("max",video.duration)
     video.play()
 })
 stopBtn.addEventListener("click",()=>{
@@ -73,8 +75,23 @@ timeFrame.addEventListener("input",(e)=>{
     if(frame>=0 && frame <=video.duration){
         video.currentTime=frame;
     }
-
 })
+
+function updateTimeDisplay (){
+    const currentTime = formatTime(video.currentTime);
+    const totalDuration = formatTime(video.duration);
+    currentTiming.textContent = currentTime;
+    totalDurationholder.textContent = totalDuration;
+};
+function formatTime(timeInSeconds) {
+    const minutes = Math.floor(timeInSeconds / 60);
+    const seconds = Math.floor(timeInSeconds % 60);
+    return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+}
+video.addEventListener("timeupdate", function () {
+    timeFrame.value =video.currentTime;
+    updateTimeDisplay();
+});
 fullScreenBtn.addEventListener("click",()=>{
     videoContainer.classList.toggle("full")
 })
