@@ -1,42 +1,5 @@
 # JavaScript-tasks
 small-mid js projects
-# DOM-TASKS
-  1-Simple calculator       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/calculator/Calculator.html)   
-  2-Sequence on-of marbles  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/marbles/index.html)       
-  3-Validation form         [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/form/index.html)       
-  4-Image slider            [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/slider/index.html) 
-
-# Day5 (Events)
-  1-stop context menu    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/stop-context-menu/index.html)   
-  2-confirm submition    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/confirm-submition/index.html)    
-  3-custom event         [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/custom-event/index.html)    
-
-# Day6 (cookie && Dom)
-  1-Show user data with cookie library  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/cookie/index.html)   
-  2-Text editor                         [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/text-editor/TextStyle.html)    
-  3-Card generator                      [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/Card-Generator/index.html)   
-  4-moving images                       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/moving-images/index.html)   
-
-# Day7 (functions and Errors)
-  1-array functionality               [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/linked-list/index.html)      
-  2-pass-numbers-only                 [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/pass-numbers-only/index.html)        
-  3-reverse arguments                 [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/reverse-params/index.html)       
-  4-exact number of paramters         [live demo](https://emaneldeeb.github.io/JavaScript-ta7ks/Day7/exact-num-arguments/index.html)        
-  6-cookie with check for proper use  [live demo](https://emaneldeeb.github.io/JavaScript-task7/Day7/cookie/index.html)         
-
-# Day8 (closure)
-  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day8/index.html)    
-
-
-# Day9 (constructor function)
-  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)
-
-# closure
- 1-Why do we use the self variable? to capture the this value in the IIFE function When executed, it refers to the window object.  
-    If I use this inside it, the setter and getter will be defined inside the window, not within my object.     
-
-2-So, why do we use an IIFE function to narrow the scope If we don't use it, the key that appears in the getter and setter functions      
-    will always be the last key that was read in the object. In this case, it's the function itself. Consequently, we can't create setters and getters for other properties 
 
 #  Guess my number game
       -- guess a random number to win with indicators to tell you if your guess too low or too high and with ability to play again and keep the highest score you got saved   
@@ -80,3 +43,46 @@ test array functionalty
 8-timer logout  
 hint-->you can test the app by these accounts (user,pin)-->(ee,1111),(aa,2222),(ae,3333)or(sa,4444)
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Bankist/index.html)
+
+
+# DOM-TASKS
+  1-Simple calculator       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/calculator/Calculator.html)   
+  2-Sequence on-of marbles  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/marbles/index.html)       
+  3-Validation form         [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/form/index.html)       
+  4-Image slider            [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/slider/index.html) 
+
+# Day5 (Events)
+  1-stop context menu    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/stop-context-menu/index.html)   
+  2-confirm submition    [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/confirm-submition/index.html)    
+  3-custom event         [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day5/custom-event/index.html)    
+
+# Day6 (cookie && Dom)
+  1-Show user data with cookie library  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/cookie/index.html)   
+  2-Text editor                         [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/text-editor/TextStyle.html)    
+  3-Card generator                      [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/Card-Generator/index.html)   
+  4-moving images                       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day6/moving-images/index.html)   
+
+# Day7 (functions and Errors)
+  1-array functionality               [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/linked-list/index.html)      
+  2-pass-numbers-only                 [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/pass-numbers-only/index.html)        
+  3-reverse arguments                 [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day7/reverse-params/index.html)       
+  4-exact number of paramters         [live demo](https://emaneldeeb.github.io/JavaScript-ta7ks/Day7/exact-num-arguments/index.html)        
+  6-cookie with check for proper use  [live demo](https://emaneldeeb.github.io/JavaScript-task7/Day7/cookie/index.html)         
+
+# Day8 (closure)
+  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day8/index.html)    
+
+
+# Day9 (constructor function)
+  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/Day9/index.html)
+
+# closure
+ 1-Why do we use the self variable? to capture the this value in the IIFE function When executed, it refers to the window object.  
+    If I use this inside it, the setter and getter will be defined inside the window, not within my object.     
+
+2-So, why do we use an IIFE function to narrow the scope If we don't use it, the key that appears in the getter and setter functions      
+    will always be the last key that was read in the object. In this case, it's the function itself. Consequently, we can't create setters and getters for other properties 
+# custom controls
+1-custom video controls [live demo](https://emaneldeeb.github.io/JavaScript-tasks/custom-controls/custom-video-controls/index.html)     
+2-custom color ranges [live demo](https://emaneldeeb.github.io/JavaScript-tasks/custom-controls/color-range/index.html)
+
