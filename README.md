@@ -44,6 +44,8 @@ test array functionalty
 hint-->you can test the app by these accounts (user,pin)-->(ee,1111),(aa,2222),(ae,3333)or(sa,4444)
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Bankist/index.html)
 
+# X-o game
+### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/x-o/index.html)
 
 # DOM-TASKS
   1-Simple calculator       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/calculator/Calculator.html)   
