@@ -1,7 +1,8 @@
 :root {
- --writing:#ddd;
- --main:red;
- --drawing-height:4px;
+  --writing:#ddd;
+  --main:red;
+  --second-color:#340a0a;
+  --drawing-height:4px;
 }
 * {
   font-family: "Roboto", sans-serif;
@@ -161,7 +162,7 @@ hr{
 .guess-word{
   width: 100%;
   min-height: 100px;
-  background-color:#340a0a;
+  background-color:var(--second-color);
   border-radius: 5px;
   margin-block: 30px;
   padding: 20px;
@@ -169,16 +170,14 @@ hr{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  color: var(--main);
   font-size: 30px;
 }
 .right-guess,.guess-word.won{
-  color:#09ec09;
   font-weight: 700;
 }
 .clicked-letter{
   pointer-events: none;
-  background-color: red ;
+  background-color: var(--main) ;
 }
 .disabled{
   pointer-events: none;
@@ -186,7 +185,22 @@ hr{
 .hide{
   display: none;
 }
-
+/* reset btn */
+.reset span{
+  display: block;
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  padding: 10px 15px;
+  background-color: var(--second-color);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.reset span:hover{
+  box-shadow:  1px 1px 15px #9587877a;
+}
 
 
 

@@ -3,6 +3,7 @@ const guessWordContainer=document.querySelector(".guess-word");
 const hangAndMan=document.querySelectorAll(".draw div.hide");
 const lettres="abcdefghijklmnopqrstuvwxyz".split("");
 const lettersConatiner=document.querySelector(".letters");
+const resetBtn=document.querySelector(".reset span");
 const MaxTries=hangAndMan.length;
 let wrongTries=0;
 let rightLeterr=0;
@@ -72,9 +73,13 @@ lettersConatiner.addEventListener("click",(event)=>{
                 event.currentTarget.classList.add("disabled");
                 guessWordContainer.innerHTML="Lost the Game";
             }else if(rightLeterr == ChosenWord.length){
-                guessWordContainer.innerHTML="congratulations";
+                guessWordContainer.innerHTML=`congratulations the word is ${ChosenWord.join("")}`;
                 guessWordContainer.classList.add("won");
                 event.currentTarget.classList.add("disabled");
             }
     }
+})
+
+resetBtn.addEventListener("click",()=>{
+    location.reload()
 })
