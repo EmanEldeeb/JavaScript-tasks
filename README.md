@@ -54,10 +54,14 @@ Features:
 3-Restart the game.   
 
 ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/x-o/index.html)
+
 # Password Generator
 1-you can choose the length between 8 t0 30     
 2-you can copy the generated password to use it anywhere      
 ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/password-generator/index.html)
+hint->Better to use it in pc screen
+
+
 # DOM-TASKS
   1-Simple calculator       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/calculator/Calculator.html)   
   2-Sequence on-of marbles  [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/marbles/index.html)       
