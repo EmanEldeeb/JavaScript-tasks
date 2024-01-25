@@ -44,6 +44,16 @@ test array functionalty
 hint-->you can test the app by these accounts (user,pin)-->(ee,1111),(aa,2222),(ae,3333)or(sa,4444)
   ### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/Bankist/index.html)
 
+ # X-O Game
+To win, complete a row, column, or diagonal with your letter.     
+
+Features:     
+
+1-Compete with your friend.     
+2-Compete against the browser.      
+3-Restart the game.   
+
+### [live demo play](https://emaneldeeb.github.io/JavaScript-tasks/x-o/index.html)
 
 # DOM-TASKS
   1-Simple calculator       [live demo](https://emaneldeeb.github.io/JavaScript-tasks/DOM-TASKS/calculator/Calculator.html)   
