@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link
+      rel="shortcut icon"
+      href="image/icon-wind@2x.png"
+      type="image/x-icon"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/347beaf4f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+   <div class="container">
+    <h1>generate a <br><span> random password</span></h1>
+    <div class="pass-strenght">
+      <input type="text" id="passlen" placeholder="Enter the length from 8 to 30">
+    </div>
+    <div class="pass-conatiner">
+      <input type="text" id="password" placeholder="Password">
+      <span id="copy-btn"><i class="fa-regular fa-copy"></i></span>
+    </div>
+    <button><i class="fa-solid fa-wand-magic-sparkles"></i>generate password</button>
+   </div>
+  </body>
+</html>
